@@ -1,0 +1,178 @@
+#header  {
+    height: 132px;
+    width: 100%;
+    background-color: #FFF;
+}
+#top-bar {
+  
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 130px;
+  
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* ~~ Top Navigation Bar ~~ */
+.navigation-bar  {
+    background-color: #588BAE;
+    height: 50px;
+    width: 100%;
+}
+
+.navigation-bar ul   {
+    padding: 0px;
+    margin: 0px;
+  text-align:center;
+}
+.navigation-bar li    {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display:inline; 
+}
+
+.navigation-bar li a    {
+    color: #588BAE;
+    background-color: #FFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-shadow: 2xp 2px 3px inset;
+    border-radius: 5px;
+    padding-right: 1em;
+    padding-left: 1em;
+    line-height: 2em;
+    margin-right: 16px;
+}
+
+.navigation-bar li a:hover
+{
+    background-color:dodgerblue;
+}
+.navigation-bar li:first-child {
+    margin-left:20px;
+    border:#C00;
+}
+
+
+
+.Phonetext
+{
+    color:white;
+    text-align:center;
+}
+
+.Square-body
+{
+        background-color:white;
+        width:100%;
+        height:400px;
+}
+
+
+.background-custom{
+  background-image: url(../images/playingYoyo.jpg);
+  background-repeat: no-repeat;
+}
+.showmore{
+  background-color: #2196F3;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+
+.showmore:hover{
+  background-color: white;
+  color: #2196F3;
+}
+
+#description{
+  overflow: hidden;
+  border: 1px solid white;
+  margin-top: 150px;
+  padding:3%; 
+}
+
+body{
+    /*background-color: #111;*/
+    /*font-family: Verdana, Geneva, sans-serif;*/
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;  
+    font-weight: bold;
+}
+
+#hello{
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.width100{
+  width: 100%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#homebackground
+{
+  height: 100%;
+  background-color: white;
+  padding-top: 2%;
+
+  color: black
+}
+
+#homebackground1
+{
+  height: 100%;
+  background-color: #588BAE;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  color: white;
+  
+}
+table.center
+{
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.square
+{
+  background-color:#588BAE;
+  width:100%;
+  height:30px;
+  color :white;
+
+}
+
+.text-footer
+{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.resize-image
+{
+  width:230px;
+  height:230px;
+  margin-left:100px;
+  margin-right:100px;
+}
